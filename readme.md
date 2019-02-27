@@ -83,7 +83,7 @@
 
 ![Conntent Page Layout Idea](https://i.imgur.com/1kXJFjF.jpg)
 
-[Gallery of all sides](https://imgur.com/a/5aezSMl)
+[See more pictures here](https://imgur.com/a/5aezSMl)
 
 ## Technologies Used
 
