@@ -11,6 +11,9 @@
 //sass variables
 
 $primary-font: "Hand TypeWriter";
+$footer-font: Helvetica, sans-serif;
+$footer-color: #f5f5f5;
+$footer-font-color: #92a1a1;
 
 
 
@@ -63,7 +66,10 @@ $primary-font: "Hand TypeWriter";
   width: 100%;
   grid-column: 1 / span 3;
   grid-row-end: end;
-  background-color: lightgray;
+  background-color: $footer-color;
+  color: $footer-font-color;
+  font-family: $footer-font;
+  padding: 15px 0 15px 0;
 }
 
 .home-page-footer-grid{
@@ -75,12 +81,21 @@ $primary-font: "Hand TypeWriter";
 
 .left-footer-column{
   @include flex-column;
+  line-height: 2;
 }
 
 .middle-footer-column{
   @include flex-column;
+  line-height: 2;
 }
 
 .right-footer-column{
-  @include flex-column;
+  display: flex;
+  align-items: center;
+}
+
+.social-icon{
+  margin: 5px;
+  height: 25px;
+  width: 25px;
 }
