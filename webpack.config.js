@@ -41,9 +41,10 @@ module.exports = {
 
       {
         test:/\.html$/,
-        use: [
-          'html-loader'
-        ]
+        loader: 'html-srcsets-loader',
+        options: {
+          attrs: ['img:src', ':srcset'],
+        }
       },
 
     ]
