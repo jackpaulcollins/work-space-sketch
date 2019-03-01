@@ -1,5 +1,45 @@
+//mixins
+
+@mixin grid{
+  display: grid
+}
+
+//sass variables
+
+$primary-font: "Hand TypeWriter";
 
 
-body{
-  background-color: blue;
+
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+.main-content-grid{
+  @include grid;
+  grid-template-columns: 10% 1fr 10%;
+  grid-template-rows: 20% 1fr 1fr;
+  margin: 3% 0 0 0;
+  justify-items: center;
+}
+
+.home-page-header{
+  grid-column-start: 2;
+  grid-row-start: 1;
+  font-family: $primary-font;
+  text-align: center;
+  font-size: 1.8vw;
+  .header-sub-text{
+    font-weight: lighter;
+    margin-top: 2%;
+  }
+}
+
+.home-page-body{
+  grid-column-start: 2;
+  grid-row-start: 2;
+  overflow: hidden;
+
 }
