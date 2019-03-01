@@ -23,6 +23,7 @@ $footer-font-color: #92a1a1;
   padding: 0;
 }
 
+//home-page styling
 
 .main-content-grid{
   @include grid;
@@ -151,4 +152,32 @@ $footer-font-color: #92a1a1;
   .header-sub-text{
     font-size: 1rem;
   }
+}
+
+//end home-page styling
+
+//----------------------------------------------------------//
+
+//Mission styling
+
+.main-mission-page-grid{
+  @include grid;
+  grid-template-columns: repeat(2, auto);
+  grid-template-rows: auto;
+  font-family: $primary-font;
+}
+
+.mission-paragraph{
+  display: flex;
+  flex-direction: column;
+  width: 40%;
+}
+.mission-page-right-side{
+  @include grid;
+  grid-template-columns: auto;
+  grid-template-rows: repeat(2,auto);
+    img{
+      border-radius: 5px;
+      width: 70%;
+    }
 }

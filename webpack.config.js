@@ -57,6 +57,26 @@ module.exports = {
       filename: 'index.html',
     }),
 
+    new HtmlWebpackPlugin({
+      template: './src/about-us.html',
+      filename: 'about-us.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/amenities.html',
+      filename: 'amenities.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/locations.html',
+      filename: 'locations.html'
+    }),
+
+    new HtmlWebpackPlugin({
+      template: './src/mission.html',
+      filename: 'mission.html'
+    }),
+
   ]
 
 };
