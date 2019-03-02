@@ -213,10 +213,11 @@ $footer-font-color: #92a1a1;
 
 .mission-images{
   display: flex;
+  flex-direction: column;
   height: 600px;
   overflow: hidden;
   grid-column-start: 3;
-  grid-row-start: 2 / span 3;
+  grid-row-start: 1 / span 3;
   img{
     width: 100%;
     border-radius: 5px;
@@ -226,8 +227,16 @@ $footer-font-color: #92a1a1;
 
 @media only screen and (max-width: 900px){
   .mission-images{
-    height: 300px;
+    display: none;
+  }
+
+  .mission-text{
+    grid-column-start: 3;
+    margin: 0 auto 0 0;
+  }
+
+  .mission-paragraph-foot{
     grid-column-start: 2;
-    grid-row-start: 3;
+    flex-direction: row;
   }
 }
