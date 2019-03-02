@@ -206,15 +206,19 @@ $footer-font-color: #92a1a1;
   }
 
 .mission-home-link{
+  margin-top: 15px;
   display: flex;
   justify-content: flex-end;
 }
 
 .mission-images{
+  display: flex;
+  height: 600px;
+  overflow: hidden;
   grid-column-start: 3;
   grid-row-start: 2 / span 3;
   img{
-    height: 400px;
+    width: 100%;
     border-radius: 5px;
   }
 }
@@ -222,7 +226,8 @@ $footer-font-color: #92a1a1;
 
 @media only screen and (max-width: 900px){
   .mission-images{
-    grid-column-start: 1;
-    grid-row-start: 2;
+    height: 300px;
+    grid-column-start: 2;
+    grid-row-start: 3;
   }
 }

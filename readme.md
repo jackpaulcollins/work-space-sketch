@@ -88,12 +88,31 @@
 ## Technologies Used
 
 * _Sketch, v53.1_
+* _clean-webpack-plugin v0.1.18_
+* _css-loader v2.1.0_
+* _file-loader v1.1.6_
+* _html-srcsets-loader v0.5.1_
+* _html-webpack-plugin v3.2.0_
+* _node-sass v4.9.3_
+* _sass-loader v7.1.0_
+* _style-loader v0.20.2_
+* _uglifyjs-webpack-plugin v1.2.2_
+* _webpack v4.0.1_
+* _webpack-cli v2.0.9_
+* _webpack-dev-server v^3.1.0_
 
 ### Setup / Installation Requirements
 
-*_clone or download repo and open in Sketch_
+*_clone or download repo
+
+*_run in terminal: $npm install to install all dependencies
+
+*_run in terminal: $npm run start to start the web server
+
 
 ### Known Bugs
+
+_the site is currently under construction, so all links may not work, and resizing may cause layout issues
 
 ## Support and Contact Details
 
