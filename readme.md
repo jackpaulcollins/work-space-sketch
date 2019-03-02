@@ -103,16 +103,16 @@
 
 ### Setup / Installation Requirements
 
-*_clone or download repo
+*clone or download repo
 
-*_run in terminal: $npm install to install all dependencies
+*run in terminal: $npm install to install all dependencies
 
-*_run in terminal: $npm run start to start the web server
+*run in terminal: $npm run start to start the web server
 
 
 ### Known Bugs
 
-_the site is currently under construction, so all links may not work, and resizing may cause layout issues
+the site is currently under construction, so all links may not work, and resizing may cause layout issues
 
 ## Support and Contact Details
 
