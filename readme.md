@@ -109,7 +109,8 @@
 
 *run in terminal: $npm run start to start the web server
 
-*or view the page at www.jaypeejay.github.io/work-space-sketch
+*or view the site at www.jaypeejay.github.io/work-space-sketch
+
 
 ### Known Bugs
 
